@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model Deployment</title>
+</head>
+<body>
+    <h1> Predict Your Sales </h1>
+    <p>
+        Enter Advertising
+    </p>
+    <form action="/" method="POST">
+        <input type="number" name="TV" placeholder="TV">
+        <input type="number" name="Radio" placeholder="Radio">
+        <input type="number" name="Newspaper" placeholder="Newspaper">
+        <input type="submit">
+
+    </form>
+    <p>Your Predicted Sales are </p>
+    <p>
+        <h4>{{ my_sales }}</h4><p>
+    
+</body>
+</html>
